@@ -1,0 +1,54 @@
+/**
+
+X Stylesheet
+
+GENERAL
+    html
+    body
+    a
+        :link
+        :active
+        :hover
+        :visited
+    img
+    hr
+
+LIST
+    ul
+    ol
+    li
+    dl
+    dt
+    dd
+
+TYPOGRAPHY
+    h1-h6
+    pre
+    p
+    strong
+    em
+    code
+    
+FORMS
+    form
+    fieldset
+    legend
+    label
+    input
+        input[type="radio"]
+        input[type="checkbox"]
+        input[type="password"]
+        input[type="text"]
+    textarea
+    select
+    
+TABLES
+    table
+        thead
+        th
+        tr
+        td
+        tbody
+        tfoot
+
+*/

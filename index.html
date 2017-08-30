@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>X</title>
+    <style>
+        body{
+            background-color: #F1F1F1;
+            font-family: sans-serif;
+        }
+        #app{
+            max-width: 960px;
+            margin: 0px auto;
+        }
+        .pull-right{
+            float:right;
+        }
+        section section{
+            margin-left: 2em;
+        }
+    </style>
+    <noscript>
+        <style></style>
+    </noscript>
+    <link rel="stylesheet" href="css/style.css">
+    <script>var X={};</script>
+</head>
+<body onload="init()">
+    <div id="app">
+        <header>
+        <div>
+            <span class="pull-right">
+                <a href="#">Sign-up</a>
+            </span>
+            <form>
+                <label for="q">Search:</label>
+                <input name="q" id="q" type="search" placeholder="Looking for..">
+                <button type="submit">Go</button>
+            </form>
+            <a href="http://X/">
+                <svg viewBox="0 0 260 40" style="width:260px; height:40px; position: absolute; top: 50px;">
+                    <defs>
+                        <style type="text/css">
+                            .wire {
+                                fill: none;
+                                stroke: #3cf;
+                                stroke-width: 1;
+                            }
+                        </style>
+                    </defs>
+                    <rect x="0" y="0" class="wire" width="100%" height="100%"></rect>
+                    <line x1="0" y1="100%" x2="100%" y2="0" class="wire"></line>
+                    <line x1="100%" y1="100%" x2="0" y2="0" class="wire"></line>
+                </svg>
+                <h1><b>COMPANY</b><span>LOGO</span></h1>
+            </a>
+            <nav>
+            <div>
+                <h2><small>Dedicated to excellence!</small></h2>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT US</a></li>
+                    <li>PAGE
+                    <ul>
+                        <li><a href="#">SECTION</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="/">GALLERY</a></li>
+                    <li><a href="/">CONTACT US</a></li>
+                </ul>
+            </div>    
+            </nav>
+        </div>
+        </header>
+ 
+        <main>
+        <div>
+            <header>
+            <div>
+                <h1>Page Title</h1>
+                <hr>
+            </div>
+            </header>
+            <nav>
+                <h2><a href="/">Home</a> / <a href="#">Category</a> / Section</h2>
+                <a href="#section">Section</a><br>
+                <a href="#sub">Sub-section</a><br>
+                <a href="#more">More</a>
+            </nav>
+            <section>
+            <div id="section">
+                <h2>Section Title</h2>
+                <p><strong>Short, <em>consice</em></strong> and clear declarations.</p>
+                <p>Doesn't need to be long.</p>
+                <h3>My favorite tweaks</h3>
+                <ol>
+                    <li>Using <code>&lt;i&gt;</code> element for icons</li>
+                </ol>
+                <h3>Section sub-title</h3>
+                <p>You can use <code>margin</code> to center stuff</p>
+                <pre>
+  .align-center{
+     margin: 0 auto;
+  }
+                </pre>
+            </div>
+                <!-- begin sub-section -->
+                <section>
+                <div id="sub">
+                    <h3>Sub section</h3>
+                    <p>If you want to get regular updates with real value</p>
+                    <form action="#sub">
+                        <fieldset>
+                            <legend>Recieve great stuff by email</legend>
+                            <label for="email">Email:</label>
+                            <input id="email" name="email" type="email" placeholder="Enter a valid email" required>
+                            <button>Subscribe</button>
+                        </fieldset>
+                    </form>
+                </div>
+                </section> 
+                <!-- end sub-section -->
+            </section>
+        </div>
+        </main>
+        <aside>
+        <div>
+            <h2>Page Subtitle</h2>
+            <section>
+            <div id="aside">
+                <h3>Related quote</h3>
+                <blockquote>The reason why it works is simple!</blockquote>
+                <p>I say that because I mean it, just read</p>
+                <p>People online dont read anymore, they... <a href="#">Read more</a></p>
+            </div>
+            </section>
+            <section>
+            <div id="rel">
+                <h3>Related data</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Key</th>
+                            <th>Value</th>
+                            <th>Attribute</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>home</td>
+                            <td>/</td>
+                            <td>href</td>
+                            <td>Back to the root</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>parent</td>
+                            <td>../</td>
+                            <td>href</td>
+                            <td>Go up to parent directory</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>top</td>
+                            <td>#</td>
+                            <td>href</td>
+                            <td>Scroll to the top</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>anchor</td>
+                            <td>#id</td>
+                            <td>href</td>
+                            <td>Scroll to element with id</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </section>
+            <section>
+            <div id="more">
+                <h3>Sources</h3>
+                <ul>
+                    <li><h4><a href="https://validator.w3.org/nu/#textarea" target="_blank">http://validator.w3c.org/nu/</a></h4></li>
+                </ul>
+            </div>
+            </section>
+        </div>
+        </aside>
+        <footer>
+        <div>
+            <h4>Follow us on:</h4>
+            <h5><a href="#">Twitter @handle</a></h5>
+            <hr>
+            <a href="#" class="pull-right">Top</a>
+            <nav>
+                <h5>Designed by: <a href="mailto:">X</a></h5>
+                <a href="tos">Usage</a>
+                <a href="privacy-policy">Privacy</a>
+                <a href="/index.html">Index</a>
+            </nav>
+            <h6>All rights reserved. (c) copyrights 2017</h6>
+        </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
